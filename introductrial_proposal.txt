@@ -1,0 +1,13 @@
+EARTHQUAKE PROJECT-2 INTRODUCTRIAL PROPOSAL
+
+Our group has decided upon requesting an API from USGS.gov to pull past last 100 years of earthquake/ typhoon data in the world, into a dataframe in python pandas.
+It is expected to contain > 20000 occurrences (rows), with variables (columns) of date, xy location, and magnitude.
+A library must be imported to transcribe the epoctime, into Eurpean time.
+This data will be cleaned by sorting out the earthquakes which occur in the world, at a certain significant magnitude.
+This will then be pushed to SQLpostgres, in the flask app, to create a sufficient database.
+Tables will be created in postgres of Jan 01, 1919- Dec 31 1969 and Jan 01, 1970 - present of the occurrences of >= 3 magnitude earthquakes, during those times.
+These tables will be imported and visualized in Tableau to display a time lapse point map of the United States during these 2 periods,.
+The diameter of each point will indicate frequency, while the color will indicate the magnitude of the occurrence.
+These visualizations, along with a brief background in fault plate tectonics will be connected to python flask for presentation.
+The presentation will be based around understanding the change in frequency, magnitude, and location of these earthquakes.
+Hopefully this data will provide an understanding of future trends.
