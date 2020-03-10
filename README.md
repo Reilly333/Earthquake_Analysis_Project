@@ -5,9 +5,9 @@ Assignment outline: The purpose of this project was to get familiar with obtain 
 Background: As a means to obtain both reliable and extensive data for analysis, the team decided to research in the domain of earthquake historcal data. Upon calling the API, the data was filtered according to date and magnitue. A request was specified between 1 January 1919 to 31 December 2019, with a magnitude of 3 or >. 
 
 The official API documentation can be found here
+Dependencies:
 
-Getting Started
-Prerequisites
-Python 3.5 or higher.
+Python 3.5 or higher
 PostgreSQL 8.1 or higher
-
+Access to USGS API
+About 1.2gb of device storage space
